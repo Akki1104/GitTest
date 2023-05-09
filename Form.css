@@ -1,51 +1,144 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Ops+One&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
-h3{
-    color: brown;
-    padding-top: 30px;
-    
+h3 {
+  text-shadow: 2px 2px 4px #f44a0d;
+  text-align: center;
+  color: rgb(218, 128, 106);
 }
 
 body {
-    background: #e4c6c6;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
+  background: #fffec7;
+  text-align: center;
+  font-family: "Roboto";
 }
 
 form {
-    background-color: rgb(204, 103, 103);
-    max-width: 400px;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: inset 5px 5px 12px #180f0f, 5px 5px 12px rgba(27, 210, 239, 0.893);
-}
-
-placeholder{
-    font-size: 40rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-div{
-    text-shadow: 2px 2px 4px #e4d2c9;
+  background: #fb8d65;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 55px;
+  box-shadow: inset 5px 5px 12px #180f0f, 5px 5px 12px rgba(27, 210, 239, 0.893);
+  font-family: "Pacifico", cursive;
 }
 
 label {
-    display: block;
-    margin-bottom: 5px;
-    text-shadow: 2px 2px 4px #e4d2c9;
+  margin-bottom: 5px;
+  padding: 9px;
+  font-size: 21px;
+  text-shadow: 2px 2px 5px #141414;
+}
+
+div {
+  text-shadow: 2px 2px 5px #141414;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="date"],
-input[type="password"]{
-    width: 80%;
-    padding: 20px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: inset 5px 5px 12px rgb(245, 50, 50, 0.393),
-     5px 5px 12px rgb(25, 39, 231, 0.406);
+input[type="password"] {
+  width: 80%;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: inset 5px 5px 12px rgba(245, 50, 50, 0.393),
+    5px 5px 12px rgba(25, 39, 231, 0.406);
+}
+
+input[type="number"] {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: inset 5px 5px 12px rgba(245, 50, 50, 0.393),
+    5px 5px 12px rgba(25, 39, 231, 0.406);
+}
+
+textarea {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: inset 5px 5px 12px rgba(245, 50, 50, 0.393),
+    5px 5px 12px rgba(25, 39, 231, 0.406);
+  max-width: 80%;
+}
+
+textarea:placeholder-shown {
+  font-size: 19px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+:placeholder-shown:hover {
+  text-shadow: 2px 2px 5px #9b8b8b;
+  font-size: 15px;
+  font-style: oblique;
+}
+
+#date {
+  font-size: 12px;
+  color: #9b8b8b;
+  text-shadow: 2px 2px 5px #9b8b8b;
+}
+
+#date:hover {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-style: italic;
+  color: black;
+}
+
+#car {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-style: italic;
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: inset 5px 5px 12px rgba(245, 50, 50, 0.393),
+    5px 5px 12px rgba(25, 39, 231, 0.406);
+}
+
+#myGender {
+  padding: 12px;
+  font-size: 19px;
+}
+
+input[type="submit"] {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-style: italic;
+  color: black;
+  margin-right: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: inset 5px 5px 12px rgba(245, 50, 50, 0.393),
+    5px 5px 12px rgba(25, 39, 231, 0.406);
+  max-width: 80%;
+}
+
+input[type="submit"]:hover {
+  background-color: green;
+  color: greenyellow;
+  font-size: large;
+}
+
+input[type="reset"] {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-style: italic;
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: inset 5px 5px 12px rgba(245, 50, 50, 0.393),
+    5px 5px 12px rgba(25, 39, 231, 0.406);
+  max-width: 80%;
+}
+
+input[type="reset"]:hover {
+  background-color: red;
+  color: brown;
+  font-size: large;
 }
