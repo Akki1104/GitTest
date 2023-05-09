@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <h3>Html Form and Input Tag</h3>
+    <h3>Form With CSS</h3>
 
     <form action="Backend.php">
 
@@ -44,16 +44,16 @@
         <br>
 
         <div>
-            Are you eligible?: <input type="checkbox" name="myEligiblity" checked>
+            Are You Eligible?: <input type="checkbox" name="myEligiblity" checked>
 
         </div>
         <br>
         <div id="myGender">
-            Gender: male <input type="radio" name="myGender"> female <input type="radio" name="myGender"></div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"></div>
 
         <br>
         <div>
-            write About yourSelf: <br>
+            Write About YourSelf: <br>
             <textarea name="myText" placeholder="Describe Yourself" cols="45" rows="5"></textarea>
         </div>
         <br>
@@ -61,6 +61,8 @@
         <div class="carsId">
             <label for="car">Car</label>
             <select name="myCar" id="car">
+                <option value="sel">---Select Car Model---</option>
+                <option value="mah" id="mh">Mahindra Thar</option>
                 <option value="mg" id="mG">M.G Hector</option>
                 <option value="kia" id="kiA">Kia</option>
             </select>
