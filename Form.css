@@ -1,0 +1,24 @@
+h3{
+    color: red;
+}
+
+body {
+    background: #fffec7;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 5px 5px 12px #180f0f, 5px 5px 12px rgba(27, 210, 239, 0.893);
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+
+}
