@@ -1,0 +1,22 @@
+.division{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    box-sizing: border-box;
+    /* padding: 75px; */
+    color: gainsboro;
+    text-align: center;    
+}
+p{
+    margin: 80px 0px;
+}
+.head{
+    border: 3px solid black;
+    height: 300px;
+    width: 400px;
+    background-color: cadetblue;
+    box-sizing: border-box;
+    padding: 126px 40px;
+    /* text-align: center; */
+}
