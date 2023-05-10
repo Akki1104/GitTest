@@ -3,6 +3,7 @@
 }
 
 .container{
+    color: antiquewhite;
     text-align: right;
     background: burlywood;
     /* padding-bottom: 20px;
@@ -30,16 +31,22 @@
 #first{
     float: left;
     width: 50%;
+    background-image: url(https://i7x7p5b7.stackpathcdn.com/codrops/wp-content/uploads/2015/02/TextFill_image1.jpg);
+    background-size: 100%;
 }
 
 #second{
     float: left;
     width: 49%;
+    background-image: url(https://i7x7p5b7.stackpathcdn.com/codrops/wp-content/uploads/2015/02/TextFill_image1.jpg);
+    background-size: 100%;
 }
 
 #third{
     float: left;
     width: 99%;
+    background-image: url(https://i7x7p5b7.stackpathcdn.com/codrops/wp-content/uploads/2015/02/TextFill_image1.jpg);
+    background-size: 50%;
 }
 
 p,h1{
