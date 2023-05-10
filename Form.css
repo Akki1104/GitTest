@@ -2,19 +2,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 h3 {
-  text-shadow: 2px 2px 4px #f44a0d;
+  text-shadow: 2px 2px 5px #f44a0d;
   text-align: center;
-  color: rgb(218, 128, 106);
+  background-color: #141414;
+  border-radius: 5px;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 5px 5px 12px #180f0f,inset 5px 5px 12px rgba(71, 89, 92, 0.893);
 }
 
 body {
-  background: #fffec7;
+  background-color: #000000;
   text-align: center;
   font-family: "Roboto";
+  border: 1px solid #141414;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  width: 700px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+body:hover{
+  box-shadow: 5px 5px 12px #180f0f,inset 5px 5px 12px rgba(71, 89, 92, 0.893);
 }
 
 form {
-  background: #fb8d65;
+  background: #fff;
   max-width: 500px;
   margin: auto;
   padding: 20px;
