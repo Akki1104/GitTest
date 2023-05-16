@@ -1,55 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>DOM Manipulation Example</title>
 
-    <script>
-      var a = 99;
-      var b = "Write anything over will apear in console";
+<head>
+  <title>DOM Manipulation Example</title>
 
-      c = 949;
-      console.log(c);
+  <script>
+    var a = 99;
+    var b = "Write anything over will apear in console";
 
-      // operators in javascript there are 2 type of operators in js operator represents as numbers like 1 2 3 4 these are operator + - / * are the operands
+    c = 949;
+    console.log(c);
 
-      // 1. unary operator  -- it has single operands i.e(-99)
-      // or (-709)
+    c = -c;
+    console.log(c);
 
-      c = -c;
-      console.log(c);
+    c = 4505 + 50;
+    console.log(c);
 
-      // 2. binary operator
+    var num1 = 2;
+    var num2 = 9;
 
-      // and there is a operands in js which denoted as + - / * are the operands
+    console.log("The value of num1 + num2 is " + (num1 + num2));
+    console.log("The value of num1 - num2 is " + (num1 - num2));
+    console.log("The value of num1 * num2 is " + num1 * num2);
+    console.log("The value of num1 / num2 is " + num1 / num2);
+    console.log("The value of num1 ** num2 is " + num1 ** num2);
+    console.log("The value of num1++ is " + num1++);
+    console.log("The value of ++num1 is " + ++num1);
+    console.log("The value of num1-- is " + num1--);
+    console.log("The value of --num1 is " + --num1);
 
-      c = 4505 + 50;
-      console.log(c);
-
-      // Arithmetic operators in action in JavaScript
-      var num1 = 2;
-      var num2 = 9;
-
-      console.log("The value of num1 + num2 is " + (num1 + num2));
-      console.log("The value of num1 - num2 is " + (num1 - num2));
-      console.log("The value of num1 * num2 is " + num1 * num2);
-      console.log("The value of num1 / num2 is " + num1 / num2);
-      console.log("The value of num1 ** num2 is " + num1 ** num2);
-      console.log("The value of num1++ is " + num1++);
-      console.log("The value of ++num1 is " + ++num1);
-      console.log("The value of num1-- is " + num1--);
-      console.log("The value of --num1 is " + --num1);
-
-
-      
-    </script>
-  </head>
+    alert("hello")
+  </script>
+</head>
 
 
 
-  <body>
-    <p id="my-paragraph">This is a paragraph.</p>
-    <button id="my-button">Click me!</button>
+<body>
+  <p id="my-paragraph">This is a paragraph.</p>
+  <button id="my-button">Click me!</button>
+</body>
 
-    <script src="twoDom.js"></script>
-  </body>
 </html>
