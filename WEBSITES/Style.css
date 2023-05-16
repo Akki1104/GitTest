@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Pacifico&family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Pacifico&family=Poppins:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgba(203, 119, 36, 0.5);
+    width: auto;
+    font-family: 'Oswald', sans-serif;
+    height: auto;
+    /* box-shadow: 2px 2px 3px black, 5px 5px 9px burlywood; */
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style-type: none;
+    font-size: 28px;
+    padding: 32px 0px;
+}
+/* 
+.sidebar nav li a{
+    text-decoration: none;
+    text-align: center;
+} */
+
+.main{
+    background-color: aquamarine;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    /* position: absolute;
+    top: 0%;
+    left: 11.3%; */
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    height: 70vh;
+    width: 75vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
