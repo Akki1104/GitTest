@@ -1,2 +1,2 @@
 # GitTest
-This is file about how to use HTML and CSS to create a WebPage.
+This file is about how to use HTML, CSS & JavaScript to create a WebPage.
